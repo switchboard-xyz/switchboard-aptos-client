@@ -1,0 +1,14 @@
+module SwitchboardClient::Client {
+    use AptosFramework::timestamp;
+    use std::bcs;
+    use std::hash;
+    use std::option::{Option};
+    use std::signer;
+    use std::vector;
+
+
+
+    struct Client has key, store, copy, drop {
+    }
+
+}
