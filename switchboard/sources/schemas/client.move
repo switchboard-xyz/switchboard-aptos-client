@@ -5,6 +5,7 @@ module SwitchboardClient::Client {
     use std::option::{Option};
     use std::signer;
     use std::vector;
+    use Switchboard::Aggregator;
 
 
 
